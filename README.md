@@ -1,17 +1,33 @@
-# prize_bond_checker
+# 📱 Number Store App
 
-A new Flutter project.
+A simple and beautiful **Flutter app** that allows you to **store numbers**, including number ranges, and search through them easily.  
+Built using **Hive** for local storage, so your data is saved even after closing the app.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ➕ **Add single numbers** or **entire ranges** (e.g. `1005-1100`) with one click  
+- 🔍 **Search** for numbers instantly with a search bar  
+- 🗑 **Delete** numbers individually  
+- 💾 Data is stored **locally** using Hive (no internet required)  
+- 🎨 **Modern UI** with gradient backgrounds and smooth animations  
+- 📊 **Live total count** of stored numbers in the AppBar  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Number-Checker" 
+## 📸 Screenshots
+  
+  | Home Page | Add Number Dialog | Search |
+  |-----------|------------------|--------|
+  | <img src="asset/home.jpg" height="400"> | <img src="asset/add.jpg" height="400"> | <img src="asset/search.jpg" height="400"> |
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter** (UI Framework)  
+- **Hive & hive_flutter** (Local Database)  
+- **Material Design** (UI Components)  
+
+---
